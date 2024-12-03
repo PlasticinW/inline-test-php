@@ -40,7 +40,7 @@
                             </thead>
                             <tbody>
                                 <?php
-                                    $connect = pg_connect('host=localhost port=5432 dbname=inlinedatabase user=postgres password=Rbkkth3008');
+                                    $connect = pg_connect('host=localhost port=5432 dbname=inlinedatabase user=postgres password=...');
                                     if(isset($_GET['search'])){
                                         $search = $_GET['search'];
                                         if (strlen($search)>2){
