@@ -11,7 +11,7 @@
     $posts_decoded = json_decode($posts_json, true);
     $comments_decoded = json_decode($comments_json, true);
     #вводим параметры бд, в моём случае это были 'host=localhost port=5432 dbname=inlinedatabase user=postgres password=...'
-    $connect = pg_connect('host=localhost port=5432 dbname=inlinedatabase user=postgres password=Rbkkth3008');
+    $connect = pg_connect('host=localhost port=5432 dbname=inlinedatabase user=postgres password=...');
     #это для проверки
     #print_r($comments_decoded[0]);
     #print_r($comments_decoded[499]["postId"]);
